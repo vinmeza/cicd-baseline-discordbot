@@ -1,0 +1,10 @@
+//For commands with options, add to the mock interaction:
+
+const mockInteraction = {
+  // ...base properties
+  options: {
+    getUser: (name) => ({ id: '123', username: 'test-user' }),
+    getInteger: (name) => 100,
+    getString: (name) => 'some-value',
+  },
+};
