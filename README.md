@@ -23,7 +23,7 @@ Automatically deploy your Discord bot to a VPS using Docker + GitHub Actions.
 ## 🚀 Quick Start
 
 ### 1. Create Project from Template
-Click **[Use this template](https://github.com/yourusername/yourrepo/generate)** to create your new repo.
+Click **[Use this template](https://github.com/vinmeza/cicd-baseline-discordbot/generate)** to create your new repo.
 
 ### 2. Docker Hub Setup
 1. Create new Docker Hub repository  
