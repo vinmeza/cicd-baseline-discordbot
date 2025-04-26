@@ -30,8 +30,8 @@ Click **[Use this template](https://github.com/vinmeza/cicd-baseline-discordbot/
 2. Add these GitHub Secrets to your repo:
    ```
    DOCKERHUB_USERNAME = Your Docker Hub username
-   DOCKERHUB_PASSWORD = Your Docker Hub password/access token
-   DOCKERHUB_REPO = your-dockerhub-username/repo-name```
+   DOCKERHUB_PASSWORD = Your Docker Hub access token. Created in DockerHub account settings -> Personal Access Tokens. It needs Read & Write permissions.
+   DOCKERHUB_REPO = Your Docker Hub Repo Name. Note that it does not include your username (NOT THIS: username/repo-name THIS: repo-name)
 
 ### 3. VPS Configuration (Ubuntu)
 SSH into your VPS with sudo privileges and do the following:
